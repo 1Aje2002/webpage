@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+header,nav,section,article,aside,footer{
+    display: block;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+header{
+   
+    background-color: #404040;
+}
+
+header a{
+    padding: 2% 5%;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    display: block;
+    
+}
+
+nav{
+    padding: 1% 5%;
+    background-color: tomato;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.mid{
+    width: 90%;
+    margin: auto;
+    min-height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+article{
+    width: 79%;
+    background-color: white;
+}
+.post{
+    padding: 1%;
+    margin-bottom: 1vh;
+    border:1px solid grey;
+}
+.post h1{
+    padding: 1%;
+    background-color: #404040;
+    color: white;
+}
+
+.post p{
+    text-align: justify;
+}
+
+
+
+aside{
+    width: 20%;
+    background-color: gold;
+}
+
+footer{
+    padding: 1.50% 5%;
+    background-color: #404040;
+}
+
+footer h4{
+    color: white;
+    text-align: center;
+}
